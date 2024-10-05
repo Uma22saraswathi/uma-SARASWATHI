@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Application form</title>
+    </head>
+    <body>
+     <form>
+        <fieldset>
+            <legend style="text-align: center;">MY APPLICATION FORM</legend style>
+            <label>Username  :</label><input type="text" placeholder="ENTER YOUR NAME"><br><br>
+            <label>Password  :</label><input type="password" placeholder="ENTER YOUR PASSWORD" id="pwd" name="pwd" pattern=".{8,}" title="Eight or more characters">
+            <pattern=".{8,}" title="Eight or more charecters">
+            <br><br>
+            <label>Gender  :</label><input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female"> Female<br><br>
+            <input type="submit" value="submit"><br><br>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+            <label>Declaration</label><input type="checkbox">"I certify that the information provided in this resume is true and accurate to the best of my knowledge." "I hereby declare that the details furnished above are true and correct." "The information presented in this resume accurately reflects my qualifications and experience."<br><br>
+            <label>Declaration</label><input type="checkbox">
+            "I certify that the information provided in this resume is true and accurate to the best of my knowledge." "I hereby declare that the details furnished above are true and correct." "The information presented in this resume accurately reflects my qualifications and experience."<br><br>
+           <button type="button" autofocus onclick="alert('hello')">click me!</button><br><br>
+           <button type="button"disabled>click me</button><br><br>
+           <button type="submit">submit</button><button type="submit" formaction="action-page2.php">submit to another page</button> <br><br>
+           Choose your favorite subject: <button name="subject" type="submit" value="HTML">HTML</button>
+           <button name="subject" type="submit" value="CSS">CSS</button><br><br>
+           <style>
+            .sub{
+                border: 2px solid red;
+                border-radius: 10px;
+                color: black;
+                background-color: red;
+                padding: 10px;
+                box-shadow: 3px 4px black;
+            }
+            aside{
+                width: 30%;
+                padding-left: 15px;
+                margin-left: 15px;
+                float: right;
+                font-style: italic;
+                background-color: lightgray;
+            }
+           </style><h1>The aside element </h1>
+           <p>
+            My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family! </p>
+            <aside>
+                <p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </aside>
+            <p>
+                My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family! 
+            </p>
+            <p>
+                My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family! 
+
+            </p>
+            <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family! </p>
+
+          <button class="sub">Subscribe</button>
+           
+         </fieldset>
+         </form>
+    </body>
+</html>

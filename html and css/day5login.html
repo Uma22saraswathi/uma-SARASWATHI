@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+       <fieldset>
+        <legend style="text-align: end";></legend>
+      
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        
+        <label>Password  :</label><input type="password" placeholder="ENTER YOUR PASSWORD" id="pwd" name="pwd" pattern=".{8,}" title="Eight or more characters">
+        <pattern=".{8,}" title="Eight or more charecters">
+        <br><br>
+          <input type="submit" value="submit"><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
